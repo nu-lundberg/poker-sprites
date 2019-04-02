@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example of Setting Hover State for Sprite Menu Links</title>
+<style type="text/css">
+.contaier{
+    max-height:50px !important;
+}
+.card {
+    height: 118px;
+    line-height: 50px;
+    display: inline-block;
+    padding-left: 86px; /* To sift text off the background-image */
+    color: #3E789F;
+    background: url("cards.png") no-repeat; /* As all link share the same background-image */
+}
+.five-d {
+    background-position: -258px -118px;
+}
+.deuce-d {
+    background-position: -0px -118px;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+            <div class="card five-d"></div>
+            <div class="card deuce-d" id="deuce-diamonds"></div>
+
+    </div>
+
+    <script>
+    let deuceClick = document.getElementById('deuce-diamonds');
+    deuceClick.addEventListener('click', (event) => {
+        console.log('clicked the ' + event.clientX);
+    })
+    </script>
+</body>
+</html>                            
