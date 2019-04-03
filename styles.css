@@ -1,0 +1,214 @@
+.deck {
+  height: 118px;
+  line-height: 50px;
+  display: inline-block;
+  padding-left: 86px;
+  background: url('cards.png') no-repeat;
+}
+
+.deuce-diamond {
+  background-position: -0px -118px;
+}
+
+.three-diamond {
+  background-position: calc(0px - 86px) -118px;
+}
+
+.four-diamond {
+  background-position: calc(0px - (86px * 2)) -118px;
+}
+
+.five-diamond {
+  background-position: calc(0px - (86px * 3)) -118px;
+}
+
+.six-diamond {
+  background-position: calc(0px - (86px * 4)) -118px;
+}
+
+.seven-diamond {
+  background-position: calc(0px - (86px * 5)) -118px;
+}
+
+.eight-diamond {
+  background-position: calc(0px - (86px * 6)) -118px;
+}
+
+.nine-diamond {
+  background-position: calc(0px - (86px * 7)) -118px;
+}
+
+.ten-diamond {
+  background-position: calc(0px - (86px * 8)) -118px;
+}
+
+.jack-diamond {
+  background-position: calc(0px - (86px * 9)) -118px;
+}
+
+.queen-diamond {
+  background-position: calc(0px - (86px * 10)) -118px;
+}
+.king-diamond {
+  background-position: calc(0px - (86px * 11)) -118px;
+}
+.ace-diamond {
+  background-position: calc(0px - (86px * 12)) -118px;
+}
+
+/* END OF DIAMONDS */
+
+.deuce-heart {
+  background-position: -0px calc(0px - (118px * 2));
+}
+
+.three-heart {
+  background-position: calc(0px - 86px) calc(0px - (118px * 2));
+}
+
+.four-heart {
+  background-position: calc(0px - calc(86px * 2)) calc(0px - (118px * 2));
+}
+.five-heart {
+  background-position: calc(0px - calc(86px * 3)) calc(0px - (118px * 2));
+}
+
+.six-heart {
+  background-position: calc(0px - calc(86px * 4)) calc(0px - (118px * 2));
+}
+
+.seven-heart {
+  background-position: calc(0px - calc(86px * 5)) calc(0px - (118px * 2));
+}
+
+.eight-heart {
+  background-position: calc(0px - calc(86px * 6)) calc(0px - (118px * 2));
+}
+
+.nine-heart {
+  background-position: calc(0px - calc(86px * 7)) calc(0px - (118px * 2));
+}
+
+.ten-heart {
+  background-position: calc(0px - calc(86px * 8)) calc(0px - (118px * 2));
+}
+
+.jack-heart {
+  background-position: calc(0px - calc(86px * 9)) calc(0px - (118px * 2));
+}
+
+.queen-heart {
+  background-position: calc(0px - calc(86px * 10)) calc(0px - (118px * 2));
+}
+
+.king-heart {
+  background-position: calc(0px - calc(86px * 11)) calc(0px - (118px * 2));
+}
+.ace-heart {
+  background-position: calc(0px - calc(86px * 12)) calc(0px - (118px * 2));
+}
+/* END OF HEARTS*/
+
+.deuce-spade {
+  background-position: -0px calc(0px - (118px * 3));
+}
+
+.three-spade {
+  background-position: calc(0px - 86px) calc(0px - (118px * 3));
+}
+
+.four-spade {
+  background-position: calc(0px - calc(86px * 2)) calc(0px - (118px * 3));
+}
+
+.five-spade {
+  background-position: calc(0px - calc(86px * 3)) calc(0px - (118px * 3));
+}
+
+.six-spade {
+  background-position: calc(0px - calc(86px * 4)) calc(0px - (118px * 3));
+}
+
+.seven-spade {
+  background-position: calc(0px - calc(86px * 5)) calc(0px - (118px * 3));
+}
+
+.eight-spade {
+  background-position: calc(0px - calc(86px * 6)) calc(0px - (118px * 3));
+}
+
+.nine-spade {
+  background-position: calc(0px - calc(86px * 7)) calc(0px - (118px * 3));
+}
+.ten-spade {
+  background-position: calc(0px - calc(86px * 8)) calc(0px - (118px * 3));
+}
+
+.jack-spade {
+  background-position: calc(0px - calc(86px * 9)) calc(0px - (118px * 3));
+}
+
+.queen-spade {
+  background-position: calc(0px - calc(86px * 10)) calc(0px - (118px * 3));
+}
+
+.king-spade {
+  background-position: calc(0px - calc(86px * 11)) calc(0px - (118px * 3));
+}
+
+.ace-spade {
+  background-position: calc(0px - calc(86px * 12)) calc(0px - (118px * 3));
+}
+
+/*END OF SPADES*/
+
+.deuce-club {
+  background-position: -0px 0px;
+}
+
+.three-club {
+  background-position: calc(0px - 86px) 0px;
+}
+
+.four-club {
+  background-position: calc(0px - calc(86px * 2)) 0px;
+}
+
+.five-club {
+  background-position: calc(0px - calc(86px * 3)) 0px;
+}
+
+.six-club {
+  background-position: calc(0px - calc(86px * 4)) 0px;
+}
+
+.seven-club {
+  background-position: calc(0px - calc(86px * 5)) 0px;
+}
+
+.eight-club {
+  background-position: calc(0px - calc(86px * 6)) 0px;
+}
+
+.nine-club {
+  background-position: calc(0px - calc(86px * 7)) 0px;
+}
+.ten-club {
+  background-position: calc(0px - calc(86px * 8)) 0px;
+}
+
+.jack-club {
+  background-position: calc(0px - calc(86px * 9)) 0px;
+}
+
+.queen-club {
+  background-position: calc(0px - calc(86px * 10)) 0px;
+}
+
+.king-club {
+  background-position: calc(0px - calc(86px * 11)) 0px;
+}
+
+.ace-club {
+  background-position: calc(0px - calc(86px * 12)) 0px;
+}

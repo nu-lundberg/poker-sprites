@@ -1,41 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Example of Setting Hover State for Sprite Menu Links</title>
-<style type="text/css">
-.contaier{
-    max-height:50px !important;
-}
-.card {
-    height: 118px;
-    line-height: 50px;
-    display: inline-block;
-    padding-left: 86px; /* To sift text off the background-image */
-    color: #3E789F;
-    background: url("cards.png") no-repeat; /* As all link share the same background-image */
-}
-.five-d {
-    background-position: -258px -118px;
-}
-.deuce-d {
-    background-position: -0px -118px;
-}
-
-</style>
-</head>
-<body>
-    <div class="container">
-            <div class="card five-d"></div>
-            <div class="card deuce-d" id="deuce-diamonds"></div>
-
-    </div>
-
-    <script>
-    let deuceClick = document.getElementById('deuce-diamonds');
-    deuceClick.addEventListener('click', (event) => {
-        console.log('clicked the ' + event.clientX);
-    })
-    </script>
-</body>
-</html>                            
+  <head>
+    <meta charset="UTF-8" />
+    <title>Example of Setting Hover State for Sprite Menu Links</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="deck deuce-diamond"></div>
+    <div class="deck three-diamond"></div>
+    <div class="deck four-diamond"></div>
+    <div class="deck five-diamond"></div>
+    <div class="deck six-diamond"></div>
+    <div class="deck seven-diamond"></div>
+    <div class="deck eight-diamond"></div>
+    <div class="deck nine-diamond"></div>
+    <div class="deck ten-diamond"></div>
+    <div class="deck jack-diamond"></div>
+    <div class="deck queen-diamond"></div>
+    <div class="deck king-diamond"></div>
+    <div class="deck ace-diamond"></div>
+    <br />
+    <div class="deck deuce-heart"></div>
+    <div class="deck three-heart"></div>
+    <div class="deck four-heart"></div>
+    <div class="deck five-heart"></div>
+    <div class="deck six-heart"></div>
+    <div class="deck seven-heart"></div>
+    <div class="deck eight-heart"></div>
+    <div class="deck nine-heart"></div>
+    <div class="deck ten-heart"></div>
+    <div class="deck jack-heart"></div>
+    <div class="deck queen-heart"></div>
+    <div class="deck king-heart"></div>
+    <div class="deck ace-heart"></div>
+    <br />
+    <div class="deck deuce-spade"></div>
+    <div class="deck three-spade"></div>
+    <div class="deck four-spade"></div>
+    <div class="deck five-spade"></div>
+    <div class="deck six-spade"></div>
+    <div class="deck seven-spade"></div>
+    <div class="deck eight-spade"></div>
+    <div class="deck nine-spade"></div>
+    <div class="deck ten-spade"></div>
+    <div class="deck jack-spade"></div>
+    <div class="deck queen-spade"></div>
+    <div class="deck king-spade"></div>
+    <div class="deck ace-spade"></div>
+    <br />
+    <div class="deck deuce-club"></div>
+    <div class="deck three-club"></div>
+    <div class="deck four-club"></div>
+    <div class="deck five-club"></div>
+    <div class="deck six-club"></div>
+    <div class="deck seven-club"></div>
+    <div class="deck eight-club"></div>
+    <div class="deck nine-club"></div>
+    <div class="deck ten-club"></div>
+    <div class="deck jack-club"></div>
+    <div class="deck queen-club"></div>
+    <div class="deck king-club"></div>
+    <div class="deck ace-club"></div>
+  </body>
+</html>
